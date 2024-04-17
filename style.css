@@ -1,18 +1,56 @@
-h1 {
-    font-family: "Julius Sans One";
+@import 'utilities.css';
+:root{
+--primary: rgb(221, 29, 29);
+--bgDark: rgb(12, 12, 12);
+--white: rgb(0, 0, 0);
+--secondary: rgb(0, 59, 50);
+--bgLight: rgb(190, 181, 181);
 }
-h2 {
+body{
+    font-family: 'Poppins', sans-serif;
+    }
+    .container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+    }
+    .hero{
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+    }
+    .hero .left img{
+    width: 400px;
+    }
+    .hero .right {
+    color: var(--white);
+    margin-top: -7rem;
+    }
+    .hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+    }
+    .hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    }
+    .hero .right h1 span{
+    color: var(--primary);
+    }
+    .hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+    }
+   h2 {
     font-family: "Archivo Narrow";
-}
-ul {
+        text-align-last: Center;
+        text-size-adjust: 40px;
+   }
+   h1 {
+    font-family: "Archivo Narrow";
+   }
+   h6 {
     font-family: "Julius Sans One";
-}
-nav {
-    float:right
-}
-p {
-    color:red
-}
-body {
-    background-color:aliceblue
 }
