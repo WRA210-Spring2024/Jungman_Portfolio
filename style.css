@@ -19,6 +19,7 @@ body{
     padding-bottom: 3rem;
     }
     .hero .left img{
+        margin-left: 10%;
     width: 400px;
     }
     .hero .right {
@@ -40,17 +41,50 @@ body{
     color: var(--primary);
     }
     .hero .right p{
-    line-height: 1.9;
+    line-height: 1.5;
     margin-bottom: 2rem;
+    text-align-last: "left"
     }
    h2 {
     font-family: "Archivo Narrow";
         text-align-last: Center;
-        text-size-adjust: 40px;
+        font-size: 50px;
+        color: rgb(221, 29, 29);
    }
    h1 {
     font-family: "Archivo Narrow";
    }
    h6 {
     font-family: "Julius Sans One";
+}
+h3 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+h4 {
+    font-family: "Julius Sans One";
+        text-align-last: Center;
+        font-size: 20px;
+}
+h5 {
+    font-family: "Julius Sans One";
+    font-size: 30px;
+    text-align-last: Center;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    text-align-last: Center;
+}
+object {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
